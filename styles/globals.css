@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* Mengatur latar belakang (background) body dengan kelas CSS "bg-zinc-900" */
+    /* Mengatur tinggi (height) body menjadi tinggi penuh (full) layar dengan kelas CSS "h-full" */
+    /* Mengatur pengelolaan overflow pada sumbu X menjadi tersembunyi (hidden) dengan kelas CSS "overflow-x-hidden" */
+    @apply bg-zinc-900 h-full overflow-x-hidden;
+}
+
+#__next {
+    /* Mengatur tinggi (height) elemen dengan ID "__next" menjadi tinggi penuh (full) layar dengan kelas CSS "h-full" */
+    @apply h-full;
+}
+
+html {
+    /* Mengatur tinggi (height) html menjadi tinggi penuh (full) layar dengan kelas CSS "h-full" */
+    @apply h-full;
+}
